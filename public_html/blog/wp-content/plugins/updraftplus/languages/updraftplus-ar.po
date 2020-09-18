@@ -1,0 +1,158 @@
+# Translation of UpdraftPlus in Arabic
+# This file is distributed under the same license as the UpdraftPlus package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-31 17:21:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: ar\n"
+"Project-Id-Version: UpdraftPlus\n"
+
+#: src/admin.php:5374
+msgid "Clone region:"
+msgstr ""
+
+#: src/udaddons/updraftplus-addons.php:268,
+#: src/udaddons/updraftplus-addons.php:280
+msgid "go here"
+msgstr ""
+
+#: src/udaddons/updraftplus-addons.php:268,
+#: src/udaddons/updraftplus-addons.php:280
+msgid "If you have already renewed, then you need to allocate a licence to this site - %s"
+msgstr ""
+
+#: src/addons/onedrive.php:864
+msgid "Authentication"
+msgstr ""
+
+#: src/admin.php:926
+msgid "You must select at least one remote storage destination to upload this backup set to."
+msgstr ""
+
+#: src/templates/wp-admin/settings/form-contents.php:350
+msgid "Read more about Easy Updates Manager"
+msgstr ""
+
+#: src/templates/wp-admin/settings/temporary-clone.php:68
+msgid "You can find out more about clone keys here."
+msgstr ""
+
+#: src/templates/wp-admin/settings/temporary-clone.php:57
+msgid "Or, use an UpdraftClone key"
+msgstr ""
+
+#: src/restorer.php:2493
+msgid "Found SET NAMES %s, but changing to %s as suggested by WPDB::determine_charset()."
+msgstr ""
+
+#: src/admin.php:953
+msgid "UpdraftClone key is required."
+msgstr ""
+
+#: src/admin.php:944
+msgid "The preparation of the clone data has been aborted."
+msgstr ""
+
+#: src/addons/azure.php:646
+msgid "Azure Government"
+msgstr ""
+
+#: src/templates/wp-admin/settings/form-contents.php:350
+msgid "Ask WordPress to automatically update UpdraftPlus when it finds an available update."
+msgstr ""
+
+#: src/templates/wp-admin/settings/form-contents.php:349
+msgid "Automatic updates"
+msgstr ""
+
+#: src/restorer.php:2092, src/restorer.php:2134
+msgid "Your database user does not have permission to drop tables"
+msgstr ""
+
+#: src/admin.php:2962
+msgid "Ask WordPress to update UpdraftPlus automatically when an update is available"
+msgstr ""
+
+#: src/addons/googlecloud.php:997
+msgid "You must add the following as the authorized redirect URI (under \"More Options\") when asked"
+msgstr ""
+
+#: src/addons/googlecloud.php:991
+msgid "%s does not allow authorization of sites hosted on direct IP addresses. You will need to change your site's address (%s) before you can use %s for storage."
+msgstr ""
+
+#: src/addons/googlecloud.php:57
+msgid "Frankfurt"
+msgstr ""
+
+#: src/addons/googlecloud.php:56
+msgid "London"
+msgstr ""
+
+#: src/addons/googlecloud.php:55
+msgid "Belgium"
+msgstr ""
+
+#: src/addons/googlecloud.php:54
+msgid "Sydney"
+msgstr ""
+
+#: src/addons/googlecloud.php:53
+msgid "Singapore"
+msgstr ""
+
+#: src/addons/googlecloud.php:52
+msgid "Tokyo"
+msgstr ""
+
+#: src/addons/googlecloud.php:51
+msgid "Taiwan"
+msgstr ""
+
+#: src/addons/googlecloud.php:50
+msgid "Oregon"
+msgstr ""
+
+#: src/addons/googlecloud.php:49
+msgid "North Virginia"
+msgstr ""
+
+#: src/addons/googlecloud.php:48
+msgid "South Carolina"
+msgstr ""
+
+#: src/addons/googlecloud.php:47
+msgid "Iowa"
+msgstr ""
+
+#: src/includes/class-commands.php:949
+msgid "The creation of your data for creating the clone should now begin. N.B. You will be charged one token once the clone is ready. If the clone fails to boot, then no token will be taken."
+msgstr ""
+
+#: src/templates/wp-admin/settings/file-backup-exclude.php:11
+msgid "Confirm change"
+msgstr ""
+
+#: src/templates/wp-admin/settings/exclude-settings-modal/exclude-panel-submit.php:3,
+#: src/templates/wp-admin/settings/file-backup-exclude.php:18
+msgid "Add an exclusion rule"
+msgstr ""
+
+#: src/templates/wp-admin/settings/exclude-modal.php:59
+msgid "Type a file prefix"
+msgstr ""
+
+#: src/templates/wp-admin/settings/exclude-modal.php:56,
+#: src/templates/wp-admin/settings/exclude-modal.php:58
+msgid "All files beginning with these characters"
+msgstr ""
+
+#: src/templates/wp-admin/settings/exclude-modal.php:47
+msgid "Type an extension like zip"
+msgstr ""
+
+#: src/templates/wp-admin/settings/
