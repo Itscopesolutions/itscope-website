@@ -33,6 +33,7 @@
 
 html, body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 
@@ -216,6 +217,49 @@ div#preloader {
 .area-padding {
   padding: 70px 0px 80px;
 }
+
+/* Recrutiment page style */
+.recruit_page_link{
+  cursor: pointer;
+}
+.outsourcing-info{
+  margin: 50px 0 0 0;
+}
+.outsourcing-text{
+  max-width: 700px;
+}
+.recruit-form{
+  max-width: 600px;
+  width: 70%;
+  margin: 40px 0 0 0;
+}
+.recruit-form input{
+  width: 100%;
+  margin: 10px 0 40px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #444444;
+}
+.recruit-form input:focus{
+  border-bottom: 2px solid #444444;
+}
+.recruit-form-button{
+  background: #3ec1d5;
+  border: 1px solid #3ec1d5;
+  outline: none;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 10rem;
+}
+.recruit-form-button:hover{
+  background: none;
+  border: 1px solid #3ec1d5;
+  color: #3EC1D5;
+}
+.form-heading{
+  margin: 20px 0 0 0;
+}
+/* ---------- */
 
 .area-padding-2 {
   padding: 70px 0px 50px;
@@ -416,8 +460,7 @@ div#preloader {
   color: #fff;
   padding: 0;
   margin: 0;
-  font-size: 36px;
-  
+  font-size: 30px;
   line-height: 1;
 }
 
@@ -568,12 +611,7 @@ div#preloader {
   color: #333;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-
-
-
-
 }
-
 
 /*----------------------------------------
   6.clients Area
@@ -1233,6 +1271,12 @@ div#preloader {
 .single-icon p {
   font-size: 16px;
   line-height: 30px;
+}
+@media(max-width:600px){
+  .contact-icon *{
+    text-align: center;
+  }
+  
 }
 
 .contact-icon {

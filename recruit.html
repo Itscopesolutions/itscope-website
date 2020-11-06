@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outsourcing and Internships</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Responsive Stylesheet File -->
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader"></div>
+
+    <header>
+        <!-- header-area start -->
+        <div id="sticker" class="header-area">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12 col-sm-12">
+
+                <!-- Navigation -->
+                <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Brand -->
+                    <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                    <!-- <h1><img class="company_logo" src="img/itscope.png"></h1> -->
+                    <h1><span class="it_span">IT</span>Scope</h1>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                    <!-- <img src="img/logo.png" alt="" title=""> -->
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a class="page-scroll" href="index.html#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#clients">Clients</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#partners">Partners</a>
+                    </li>
+                    <li><a class="page-scroll" href="#">Blog</a><!-- Edited the link to direct to the blog page -->
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#contact">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+                <!-- navbar-collapse -->
+                </nav>
+                <!-- END: Navigation -->
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- header-area end -->
+    </header>
+
+    <div class="outsourcing-info area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                    <h2>Outsourcing and Internships</h2>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="text-left outsourcing-text">
+                        <p>
+                            Recognizing business needs and tailoring IT solutions 
+                            to meet those needs has always been our strength<br>
+                            -	We know our business.<br>
+                            -	We will showcase the benefits of outsourcing your services to us<br>
+                            -	We are professionals and clientcentric. We minimise your risk<br>
+                            -	Our costing is designed to fit any budget<br>
+                            -	Your deadlines will be met.<br><br>
+
+                            Under our internship program, we seek challenging and rewarding 
+                            placements for our interns. Participants who wish to have a successful 
+                            career in Infotech, with varying levels of experience, are placed with our 
+                            clients at no cost. With each intern seeking to gain a competitive advantage 
+                            and advance their careers, we ensure they are carefully vetted before placement 
+                            to make certain they meet the same standards as our outsourced staff.<br><br>
+
+                            We will work with clients new to outsourcing or If your current provider is not<br>
+                            delivering on your SLAs or can no longer meet your requirements in terms of capability,<br>
+                            innovation and ability to scale, then perhaps it’s time for a change.<br><br>
+
+                            To request a callback or to ask for more information, please fill out the form below:
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-left">
+                        <h3 class="form-heading">Outsourcing/Recruitment Form</h3>
+                    </div>
+                    <form class="recruit-form" action="/api/send_mail" method="POST">
+                        <label for="name">Company Name</label><br>
+                        <input name="name" type="text" placeholder="Your answer" required><br>
+
+                        <label for="website">Company Website</label><br>
+                        <input name="website" type="url"  placeholder="Your answer" required><br>
+                        
+                        <label for="email">Contact Email</label><br>
+                        <input name="email" type="email" placeholder="Your answer" required><br>
+
+                        <label for="telephone">Contact Phone Number</label><br>
+                        <input name="telephone" type="tel" placeholder="Your answer" required><br>
+
+                        <label for="jobtitle">Developer Job Title (E.g Full Stack Developer or Front End Developer)</label><br>
+                        <input name="jobtitle" type="text" placeholder="Your answer" required><br>
+
+                        <label for="devnumber">Number of Developers Needed (E.g 4)</label><br>
+                        <input name="devnumber" type="number" placeholder="Your answer" required><br>
+
+                        <label for="skillset">Skill Sets (Please list as many as needed E.g React, Node, Javascript)
+                        </label><br>
+                        <input name="skillset" type="text" placeholder="Your answer" required><br>
+
+                        <label for="devexperience">Developers Years of Experience (E.g 1-2years, 3-5 years, 5 and Above)</label><br>
+                        <input name="devexperience" type="text" placeholder="Your answer" required><br>
+
+                        <label for="duration">Duration (in Months e.g 4, 5)</label><br>
+                        <input name="duration" type="number" placeholder="Your answer" required><br>
+
+                        <label for="startdate">Expected Project Commencement Date (E.g November 2020)</label><br>
+                        <input name="startdate" type="date" placeholder="Your answer" required><br>
+
+                        <label for="comments">Other Comments</label><br>
+                        <input name="comments" type="text" placeholder="Your answer" required><br>
+
+                        <button class="recruit-form-button" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                <h3>ITScope Solutions LTD</h3 >
+                                </div>
+                
+                                <p>At ITScope Solutions Ltd, “Innovation” and “Speed” are on the very top of our priority list. Our main focus is to empower our customers with robust solutions that meet their needs and at the same time solutions that are versatile and easy to be used, managed and operated.</p>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li>
+                                        <a href="https://twitter.com/ITScope_NG"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                        <a href="https://www.instagram.com/itscopesolutions/"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>information</h4>
+                                <p>
+                                Please Contact Us With The Following Information:
+                                </p>
+                                <div class="footer-contacts">
+                                    <p><span>Tel:</span> +234 (0) 8181092929</p>
+                                    <p><span>Email:</span> info@itscopesolutions.com</p>
+                                    <p><span>Working Hours:</span> 9am-5pm(Monday-Friday)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-area-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright text-center">
+                            <p>
+                                &copy; Copyright <strong>ITScope Solutions LTD</strong>. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="js/recruit.js"></script>
+</body>
+</html>
